@@ -1,0 +1,75 @@
+# Ignore build results
+bin/
+obj/
+[Bb]uild/
+[Bb]uild[Ll]og.*
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vc.db
+*.vcopendb
+
+# VS Code settings
+.vscode/
+
+# NuGet packages
+*.nupkg
+packages/
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider / JetBrains IDE
+.idea/
+
+# DotCover
+*.dotCover
+
+# ReSharper
+*.resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Other tools
+*.log
+*.tlog
+*.cache
+*.pdb
+
+# Auto-generated files
+Generated_Code/
+
+# Publish folders
+publish/
+
+# .NET Core user secrets
+secrets.json
+
+# Visual Studio temp database
+*.dbmdl
+
+# Test results
+TestResults/
+*.trx
+
+# Backup & temporary files
+*.bak
+*.tmp
+*.temp
+*.old
+
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Local environment
+.env
+.env.*
+.vs
